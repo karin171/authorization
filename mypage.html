@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Come in</title>
+</head>
+<body>
+	<div class="header">
+		<img src="img/logo5.png" alt="logo" style="height: 110px; width: 110px;">
+		<a href="index.html" id = "registr-page">Регистрация</a>
+		<a href="mypage.html" id = "come-in-page">Вход</a>
+		<p id = "my-login"></p>
+		<a href="cabinet.html" id = "cabinet">Кабинет</a>
+		<input type="button" value="Выйти" id="exit" onclick="exit()">
+	</div>
+	<div class="main">
+        <p id="first_p">Вход</p>
+		<input type="text" id="enter-login" placeholder="Введите логин...">
+		<p id="wrong-login"></p>
+		<input type="text" id="enter-password1" placeholder="Введите пароль..."> 
+		<p id="wrong-pas1"></p> 
+		<input type="text" id="enter-password2" placeholder="Повторите пароль...">
+		<p id="wrong-pas2"></p> 
+		<input type="button" value="войти" onclick="comein()" id="comein-btn">
+	</div>
+</body>
+<script src="main.js"></script>
+</html>
